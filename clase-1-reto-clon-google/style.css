@@ -81,6 +81,18 @@ body{
     position: relative;
     right: 2.5rem;
 }
+main{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+main .busqueda-barra input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
 #barra-busqueda{
     width: 56rem;
     height: 4.2rem;
