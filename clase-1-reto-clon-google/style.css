@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: arial, Helvetica, sans-serif;
+}
+
+.enlaces-cabecera{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.enlaces{
+    display: flex;
+    justify-content:end;
+    align-items: center; 
+}
+.enlaces a{
+    margin: 1rem;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu-opciones img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 20px;
+}
+
+.icono-foto img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 20px;
+}
+
+.google{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.google img{
+    width: 23vw;
+    margin-top: 1.5rem;
+}
+
+.barra-busqueda{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.barra-busqueda img{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 1.1rem;
+}
+
+.lupa{
+    position: relative;
+    left: 3rem;
+    
+}
+
+.microfono{
+    position: relative;
+    right: 3.5rem;
+}
+.camara{
+    position: relative;
+    right: 2.5rem;
+}
+#barra-busqueda{
+    width: 56rem;
+    height: 4.2rem;
+    border-radius: 1.8rem;
+    border: 1px solid gainsboro;
+    margin-top: 1.9rem;
+}
+
+.botones{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.botones button{
+    margin: 8px; 
+}
+
+.buscar-google button{
+    width: 15rem;
+    height: 4rem;
+    border-style: none;
+    background: #f8f9fa;
+    color: #3c4043;
+    border-radius: 5px;
+}
+
+.tener-suerte button{
+    width: 15rem;
+    height: 4rem;
+    border-style: none;
+    background: #f8f9fa;
+    color: #3c4043;
+    border-radius: 5px;
+
+}
+
+.subtitulo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.subtitulo div{
+    margin: 2px;
+}
+
+.parrafo p{
+    color: #3c4043;
+    font-size: small;
+
+}
+
+.enlace a{
+    color: #1a0dab;
+    text-decoration: none;
+    font-size: small;
+}
+
+
+.pie-pagina{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.colombia-pie-pagina{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid gainsboro;
+}
+
+
+
+
+.publicidad{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+
+}
+
+.publicidad a{
+    font-size: small;
+    margin-left: 15px;
+    color: #3c4043;
+    text-decoration: none;
+}
+
+.final a{
+    font-size: small;
+    margin-left: 15px;
+    color: #3c4043;
+    text-decoration: none;
+}
+
+
+.colombia a{
+    font-size: small;
+    margin-left: 15px;
+    color: #3c4043;
+    text-decoration: none;
+}
+
+.colombia{
+    margin-top: 20px;
+    
+}
+.final{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    right: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
